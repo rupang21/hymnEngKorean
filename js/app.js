@@ -730,6 +730,21 @@ function renderHymnDetail(hymn) {
     viewLyricsBody.innerHTML = '';
     
     const fragment = document.createDocumentFragment();
+
+    // Check if English lyrics are missing for this hymn (en fields all empty)
+    const wantsEnglish = !isTrinity && !isKoreanOnlyShortcut && activeLangs.includes('en');
+    const hasEnglishLyrics = wantsEnglish && hymn.lyrics.some(v =>
+        v.lines.some(l => l.en && l.en.trim() !== '')
+    );
+    const showEnglishFallback = wantsEnglish && !hasEnglishLyrics;
+
+    // Show notice banner if English requested but unavailable
+    if (showEnglishFallback) {
+        const noticeBanner = document.createElement('div');
+        noticeBanner.className = 'no-english-notice';
+        noticeBanner.innerHTML = '⚠️ 영어 가사가 준비되지 않았습니다. 한국어로 표시합니다.<br><small>English lyrics unavailable — showing Korean.</small>';
+        fragment.appendChild(noticeBanner);
+    }
     
     hymn.lyrics.forEach(verse => {
         const verseDiv = document.createElement('div');
@@ -753,6 +768,18 @@ function renderHymnDetail(hymn) {
                     if (line['ko'] && line['ko'].trim() !== '') {
                         return; // already rendered ko, skip fallback en
                     }
+                }
+
+                // If English was requested but is empty, fall back to Korean
+                if (showEnglishFallback && lang === 'en') {
+                    if (line['ko'] && line['ko'].trim() !== '') {
+                        const lineDiv = document.createElement('div');
+                        lineDiv.className = 'line-ko line-en-fallback';
+                        lineDiv.textContent = line['ko'];
+                        pairDiv.appendChild(lineDiv);
+                        hasContent = true;
+                    }
+                    return;
                 }
                 
                 if (line[lang] && line[lang].trim() !== '') {

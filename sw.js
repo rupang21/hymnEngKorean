@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hymnal-v16';
+const CACHE_NAME = 'hymnal-v17';
 const STATIC_ASSETS = [
   'index.html',
   'css/styles.css',
