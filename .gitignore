@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Development & build artifacts
+scratch/
+scripts/
+
+# Development-only data files (not needed for the web app)
+data/BibleDb.db
+data/hymns_ko.zip
+data/hymns_ko_txt/
+data/hymns_list.xlsx
+data/nhymn2.ppt
+data/nuri_hymns_data.json
+data/translation_cache.json
+data/watchman_hymns.json
+data/github_import/
+
+# Dev scripts in root
+cupid.js
+hymn.csv
+hymn2.csv
+solve_and_scrape.js
+test_bible4u.js
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/

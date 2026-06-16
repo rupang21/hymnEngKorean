@@ -1,0 +1,1170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+KR:wght@300;400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Core Variables & Design System */
+:root {
+    --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-serif: 'Noto Serif KR', 'Lora', Georgia, serif;
+    
+    /* Animation Speeds */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light Theme Variables */
+[data-theme="light"] {
+    --bg-primary: #f8f9fa;
+    --bg-secondary: #ffffff;
+    --bg-glass: rgba(255, 255, 255, 0.75);
+    --border-glass: rgba(0, 0, 0, 0.08);
+    
+    --text-primary: #1a1d20;
+    --text-secondary: #5a626a;
+    --text-muted: #868e96;
+    
+    --accent: #b8860b; /* Dark Goldenrod */
+    --accent-hover: #996515;
+    --accent-bg: rgba(184, 134, 11, 0.1);
+    
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-md: 0 8px 24px rgba(0,0,0,0.08);
+    --shadow-lg: 0 16px 40px rgba(0,0,0,0.12);
+    
+    --scrollbar-thumb: #ced4da;
+    --scrollbar-track: #f1f3f5;
+}
+
+/* Sepia Theme Variables (Reading-focused) */
+[data-theme="sepia"] {
+    --bg-primary: #f4ecd8;
+    --bg-secondary: #fdf6e3;
+    --bg-glass: rgba(253, 246, 227, 0.8);
+    --border-glass: rgba(94, 69, 31, 0.1);
+    
+    --text-primary: #5c4033; /* Dark Brown */
+    --text-secondary: #8b5a2b;
+    --text-muted: #a08060;
+    
+    --accent: #b58900; /* Solorized Yellow */
+    --accent-hover: #b8860b;
+    --accent-bg: rgba(181, 137, 0, 0.1);
+    
+    --shadow-sm: 0 2px 8px rgba(92, 64, 51, 0.06);
+    --shadow-md: 0 8px 24px rgba(92, 64, 51, 0.1);
+    --shadow-lg: 0 16px 40px rgba(92, 64, 51, 0.15);
+    
+    --scrollbar-thumb: #d9ccb6;
+    --scrollbar-track: #ebe2cd;
+}
+
+/* Dark Theme Variables (Premium Obsidian) */
+[data-theme="dark"] {
+    --bg-primary: #0a0b0d;
+    --bg-secondary: #13151a;
+    --bg-glass: rgba(19, 21, 26, 0.8);
+    --border-glass: rgba(255, 255, 255, 0.06);
+    
+    --text-primary: #f1f3f5;
+    --text-secondary: #adb5bd;
+    --text-muted: #6c757d;
+    
+    --accent: #d4af37; /* Metallic Gold */
+    --accent-hover: #ffd700;
+    --accent-bg: rgba(212, 175, 55, 0.15);
+    
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
+    --shadow-md: 0 8px 24px rgba(0,0,0,0.4);
+    --shadow-lg: 0 16px 40px rgba(0,0,0,0.5);
+    
+    --scrollbar-thumb: #2d3139;
+    --scrollbar-track: #0d0e12;
+}
+
+/* Base Reset & Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+/* Layout Framework */
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 380px;
+    height: 100%;
+    background-color: var(--bg-secondary);
+    border-right: 1px solid var(--border-glass);
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    transition: transform var(--transition-normal), background-color var(--transition-normal), border-color var(--transition-normal);
+}
+
+/* Glassmorphism Header */
+.sidebar-header {
+    padding: 24px;
+    border-bottom: 1px solid var(--border-glass);
+    background: var(--bg-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    position: sticky;
+    top: 0;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.brand-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: var(--accent);
+    text-transform: uppercase;
+}
+
+/* Search Bar Wrapper */
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 16px 12px 42px;
+    border-radius: 12px;
+    border: 1px solid var(--border-glass);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    outline: none;
+    transition: all var(--transition-fast);
+}
+
+.search-input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-bg);
+}
+
+.search-icon {
+    position: absolute;
+    left: 14px;
+    color: var(--text-muted);
+    pointer-events: none;
+}
+
+/* Hymn List */
+.hymn-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 16px;
+    list-style: none;
+}
+
+.hymn-item {
+    display: flex;
+    align-items: center;
+    padding: 14px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: all var(--transition-fast);
+    border: 1px solid transparent;
+}
+
+.hymn-item:hover {
+    background-color: var(--accent-bg);
+    transform: translateY(-1px);
+}
+
+.hymn-item.active {
+    background-color: var(--accent);
+    color: #ffffff !important;
+}
+
+.hymn-item.active .hymn-item-title-en, 
+.hymn-item.active .hymn-item-number {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.hymn-item-number {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent);
+    width: 48px;
+    flex-shrink: 0;
+    transition: color var(--transition-normal);
+}
+
+.hymn-item-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.hymn-item-title-ko {
+    font-weight: 600;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hymn-item-title-en {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+}
+
+/* Main Display Area */
+.main-content {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-primary);
+    position: relative;
+    overflow: hidden;
+    transition: background-color var(--transition-normal);
+}
+
+/* Top Toolbar */
+.toolbar {
+    height: 72px;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--border-glass);
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    transition: background-color var(--transition-normal), border-color var(--transition-normal);
+}
+
+/* Control Buttons & Dropdowns */
+.controls-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn {
+    border: 1px solid var(--border-glass);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all var(--transition-fast);
+}
+
+#menu-open-btn {
+    display: none; /* Hidden on desktop because sidebar is always visible */
+}
+
+.btn:hover {
+    background-color: var(--border-glass);
+    border-color: var(--accent);
+}
+
+.btn.active {
+    background-color: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent);
+}
+
+.btn-icon {
+    font-size: 1.1rem;
+}
+
+/* Theme Selector */
+.theme-btn-group {
+    display: flex;
+    border: 1px solid var(--border-glass);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.theme-btn {
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all var(--transition-fast);
+}
+
+.theme-btn[data-theme-val="light"] { background-color: #ffffff; color: #1a1d20; }
+.theme-btn[data-theme-val="sepia"] { background-color: #fdf6e3; color: #5c4033; }
+.theme-btn[data-theme-val="dark"] { background-color: #13151a; color: #f1f3f5; }
+
+.theme-btn.active {
+    outline: 2px solid var(--accent);
+    z-index: 2;
+}
+
+/* Font Size Selector */
+.font-controls {
+    display: flex;
+    border: 1px solid var(--border-glass);
+    border-radius: 10px;
+    background-color: var(--bg-primary);
+}
+
+.font-btn {
+    border: none;
+    background: transparent;
+    color: var(--text-primary);
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color var(--transition-fast);
+}
+
+.font-btn:first-child {
+    border-right: 1px solid var(--border-glass);
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.font-btn:last-child {
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.font-btn:hover {
+    background-color: var(--border-glass);
+}
+
+/* Reader Container */
+.reader-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 40px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.reader-content {
+    max-width: 800px;
+    width: 100%;
+}
+
+.hymn-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--border-glass);
+    padding-bottom: 30px;
+}
+
+.hymn-title-ko {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.hymn-title-en {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.hymn-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* Lyrics Body styling */
+.lyrics-body {
+    font-family: var(--font-serif);
+    font-size: 1.2rem; /* Configurable */
+    line-height: 1.8;
+}
+
+.verse-block {
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 36px;
+}
+
+.verse-number {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent);
+    font-family: var(--font-sans);
+}
+
+.lyric-line-pair {
+    margin-bottom: 12px;
+}
+
+.line-ko {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.line-en, .line-id {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* Layout Modes styling */
+.lyrics-body[data-layout="ko-only"] .line-en { display: none; }
+.lyrics-body[data-layout="en-only"] .line-ko { display: none; }
+
+/* Alternating Mode styling */
+.lyrics-body[data-layout="alternate"] .lyric-line-pair {
+    margin-bottom: 8px;
+}
+
+/* Typography Variant classes applied dynamically */
+.lyrics-body.font-serif {
+    font-family: 'Noto Serif KR', 'Lora', Georgia, serif !important;
+}
+.lyrics-body.font-sans {
+    font-family: 'Outfit', 'Noto Sans KR', sans-serif !important;
+}
+.lyrics-body.font-system {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+/* Mode Tabs */
+.mode-tabs {
+    display: flex;
+    gap: 4px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
+.mode-tab {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.mode-tab:hover {
+    color: var(--text-primary);
+    background-color: var(--border-glass);
+}
+
+.mode-tab.active {
+    background-color: var(--accent);
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.mode-tab svg {
+    flex-shrink: 0;
+}
+
+/* Hymnal Selector */
+.hymnal-selector {
+    display: flex;
+    gap: 4px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    padding: 4px;
+    margin-bottom: 16px;
+    transition: all var(--transition-fast);
+}
+
+.hymnal-tab {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.hymnal-tab:hover {
+    color: var(--text-primary);
+    background-color: var(--border-glass);
+}
+
+.hymnal-tab.active {
+    background-color: var(--accent);
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Catechism Section Badge */
+.catechism-section-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    background: var(--accent-bg);
+    color: var(--accent);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    border: 1px solid var(--accent);
+}
+
+/* Catechism Body */
+.catechism-body {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    width: 100%;
+}
+
+.catechism-body.font-serif {
+    font-family: 'Noto Serif KR', 'Lora', Georgia, serif !important;
+}
+.catechism-body.font-sans {
+    font-family: 'Outfit', 'Noto Sans KR', sans-serif !important;
+}
+.catechism-body.font-system {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+/* Catechism Q&A Block */
+.catechism-qa-block {
+    margin-bottom: 48px;
+}
+
+.catechism-question-section,
+.catechism-answer-section {
+    margin-bottom: 24px;
+}
+
+.catechism-label {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.catechism-label-q {
+    color: var(--accent);
+}
+
+.catechism-label-a {
+    color: #2ec4b6;
+}
+
+.catechism-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border-glass);
+}
+
+.catechism-text-ko {
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    line-height: 1.9;
+}
+
+.catechism-text-en {
+    color: var(--text-secondary);
+    font-size: 0.88em;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+/* Catechism Navigation Buttons */
+.catechism-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-glass);
+}
+
+.catechism-nav-btn {
+    border: 1px solid var(--border-glass);
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all var(--transition-fast);
+}
+
+.catechism-nav-btn:hover {
+    background-color: var(--accent-bg);
+    border-color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.catechism-nav-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.catechism-nav-current {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+/* Sidebar item tweaks for catechism list */
+.hymn-item .catechism-item-q-preview {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+}
+
+/* Settings Drawer (Overlay style) */
+.settings-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 380px;
+    height: 100vh;
+    background-color: var(--bg-secondary);
+    box-shadow: var(--shadow-lg);
+    z-index: 100;
+    transition: right var(--transition-slow);
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--border-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background: var(--bg-glass);
+}
+
+.settings-overlay.open {
+    right: 0;
+}
+
+.settings-header {
+    height: 72px;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--border-glass);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--accent);
+}
+
+.settings-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.settings-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.settings-group-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border-glass);
+    padding-bottom: 6px;
+}
+
+/* Language Selection Grid/List */
+.language-selection-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lang-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.lang-checkbox-label:hover {
+    border-color: var(--accent);
+    background-color: var(--accent-bg);
+}
+
+.lang-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--text-muted);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+    flex-shrink: 0;
+    background-color: transparent;
+}
+
+.lang-checkbox:checked + .custom-checkbox {
+    border-color: var(--accent);
+    background-color: var(--accent);
+}
+
+.custom-checkbox::after {
+    content: '';
+    width: 5px;
+    height: 9px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) translate(-1px, -1px);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.lang-checkbox:checked + .custom-checkbox::after {
+    opacity: 1;
+}
+
+.lang-name {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Font Settings Group (Unified Box) */
+.settings-nested-box {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-glass);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.settings-sub-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.settings-sub-item-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.settings-sub-label {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+}
+
+.settings-nested-box .font-size-adjuster {
+    background-color: var(--bg-secondary);
+    flex: 1;
+    max-width: 180px;
+}
+
+/* Theme Grid */
+.theme-selection-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.theme-select-card {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    padding: 12px 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: all var(--transition-fast);
+}
+
+.theme-select-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.theme-select-card.active {
+    border-color: var(--accent);
+    background-color: var(--accent-bg);
+    box-shadow: 0 0 0 2px var(--accent);
+}
+
+.theme-preview {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.dark-preview { background-color: #0a0b0d; }
+.sepia-preview { background-color: #f4ecd8; }
+.light-preview { background-color: #f8f9fa; }
+
+.theme-label {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Font Size Adjuster */
+.font-size-adjuster {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    padding: 8px 16px;
+}
+
+.settings-btn {
+    border: 1px solid var(--border-glass);
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.settings-btn:hover {
+    background-color: var(--border-glass);
+    border-color: var(--accent);
+}
+
+.font-size-percentage {
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Font Family selector */
+.font-family-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.font-family-btn {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    text-align: left;
+    transition: all var(--transition-fast);
+}
+
+.font-family-btn:hover {
+    border-color: var(--accent);
+    transform: translateX(2px);
+}
+
+.font-family-btn.active {
+    border-color: var(--accent);
+    background-color: var(--accent-bg);
+    box-shadow: 0 0 0 2px var(--accent);
+}
+
+.font-family-preview {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.serif-preview { font-family: var(--font-serif); }
+.sans-preview { font-family: var(--font-sans); }
+.system-preview { font-family: 'Inter', system-ui, sans-serif; }
+
+.font-family-desc {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Sheet Music Drawer (Overlay style) */
+.score-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--bg-secondary);
+    box-shadow: var(--shadow-lg);
+    z-index: 100;
+    transition: right var(--transition-slow);
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--border-glass);
+}
+
+.score-overlay.open {
+    right: 0;
+}
+
+.score-header {
+    height: 72px;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--border-glass);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.score-body {
+    flex: 1;
+    overflow: auto;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f1f3f5;
+}
+
+/* Dark mode overrides for score viewer background */
+[data-theme="dark"] .score-body {
+    background-color: #1a1a1d;
+}
+
+.score-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    transition: transform var(--transition-fast);
+}
+
+/* Mobile Toggle Hamburger */
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+/* Empty State */
+.empty-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    gap: 16px;
+    padding: 24px;
+}
+
+.empty-icon {
+    font-size: 3rem;
+    color: var(--accent-bg);
+}
+
+/* Wake Lock Active Indicator */
+.wake-lock-status {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--text-muted);
+    display: inline-block;
+    transition: background-color var(--transition-fast);
+}
+
+.wake-lock-status.active {
+    background-color: #2ec4b6; /* Greenish Teal */
+    box-shadow: 0 0 8px #2ec4b6;
+}
+
+/* Responsive Rules */
+@media (max-width: 1024px) {
+    .score-overlay, .settings-overlay {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 290px;
+        box-shadow: var(--shadow-lg);
+    }
+    
+    .sidebar.open {
+        left: 0;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .score-overlay, .settings-overlay {
+        width: 100%;
+    }
+    
+    .toolbar {
+        padding: 0 16px;
+    }
+    
+    .controls-group {
+        gap: 4px;
+    }
+    
+    #menu-open-btn {
+        display: flex; /* Show on mobile/tablet since sidebar is hidden under drawer */
+    }
+    
+    .btn span {
+        display: none; /* Hide button text on small screens, keep icons */
+    }
+    
+    .btn {
+        padding: 8px;
+    }
+}

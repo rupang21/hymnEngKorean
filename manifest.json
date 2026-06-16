@@ -1,0 +1,25 @@
+{
+  "name": "한영 새찬송가 (Bilingual Hymnal)",
+  "short_name": "한영 찬송가",
+  "description": "21세기 새찬송가 645곡 한영 대조 가사 및 오프라인 악보 뷰어",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0b0d",
+  "theme_color": "#0a0b0d",
+  "categories": ["utilities", "music"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

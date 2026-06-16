@@ -1,0 +1,858 @@
+[
+  {
+    "number": 1,
+    "section": "faith",
+    "question_ko": "사람의 제일 되는 목적이 무엇입니까?",
+    "answer_ko": "사람의 제일 되는 목적은 하나님을 영화롭게 하고 영원토록 그를 즐거워하는 것입니다.",
+    "question_en": "What is the chief end of man?",
+    "answer_en": "Man's chief end is to glorify God, and to enjoy him forever."
+  },
+  {
+    "number": 2,
+    "section": "faith",
+    "question_ko": "하나님이 우리에게 어떤 규칙을 주셔서 어떻게 자기를 영화롭게 하며 즐거워할 것을 지시하셨습니까?",
+    "answer_ko": "구약과 신약 성경에 들어 있는 하나님의 말씀이 사람이 어떻게 하나님을 영화롭게 하며 즐거워할 것을 지시하는 유일한 규칙입니다.",
+    "question_en": "What rule hath God given to direct us how we may glorify and enjoy him?",
+    "answer_en": "The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him."
+  },
+  {
+    "number": 3,
+    "section": "faith",
+    "question_ko": "성경이 주로 무엇을 가르칩니까?",
+    "answer_ko": "성경이 주로 가르치는 것은 사람이 하나님에 대하여 무엇을 믿어야 하며, 하나님이 사람에게 무슨 의무를 요구하시는가 하는 것입니다.",
+    "question_en": "What do the Scriptures principally teach?",
+    "answer_en": "The Scriptures principally teach what man is to believe concerning God, and what duty God requires of man."
+  },
+  {
+    "number": 4,
+    "section": "faith",
+    "question_ko": "하나님은 어떤 분이십니까?",
+    "answer_ko": "하나님은 영이시요, 그의 존재하심과 지혜와 권능과 거룩하심과 공의와 인자하심과 진실하심이 무한하시고 영원하시고 불변하십니다.",
+    "question_en": "What is God?",
+    "answer_en": "God is a Spirit, infinite, eternal, and unchangeable in his being, wisdom, power, holiness, justice, goodness, and truth."
+  },
+  {
+    "number": 5,
+    "section": "faith",
+    "question_ko": "하나님이 하나 이상 계십니까?",
+    "answer_ko": "오직 하나, 살아 계시고 참되신 하나님 한 분만 계십니다.",
+    "question_en": "Are there more Gods than one?",
+    "answer_en": "There is but one only, the living and true God."
+  },
+  {
+    "number": 6,
+    "section": "faith",
+    "question_ko": "하나님의 신격에 몇 위가 계십니까?",
+    "answer_ko": "하나님의 신격에 세 위가 계시니 성부와 성자와 성령이시요, 이 세 위는 한 하나님이시라 체가 같으시고 권능과 영광이 동등하십니다.",
+    "question_en": "How many persons are there in the Godhead?",
+    "answer_en": "There are three persons in the Godhead: the Father, the Son, and the Holy Ghost; and these three are one God, the same in substance, equal in power and glory."
+  },
+  {
+    "number": 7,
+    "section": "faith",
+    "question_ko": "하나님의 작정이 무엇입니까?",
+    "answer_ko": "하나님의 작정은 그의 뜻대로 하신 영원한 계획이니, 이로 말미암아 자기의 영광을 위하여 무슨 일이든지 될 일을 미리 정하신 것입니다.",
+    "question_en": "What are the decrees of God?",
+    "answer_en": "The decrees of God are, his eternal purpose, according to the counsel of his will, whereby, for his own glory, he hath foreordained whatsoever comes to pass."
+  },
+  {
+    "number": 8,
+    "section": "faith",
+    "question_ko": "하나님이 어떻게 그 작정을 실행하십니까?",
+    "answer_ko": "하나님이 그 작정을 창조와 섭리의 일로 실행하십니다.",
+    "question_en": "How doth God execute his decrees?",
+    "answer_en": "God executeth his decrees in the works of creation and providence."
+  },
+  {
+    "number": 9,
+    "section": "faith",
+    "question_ko": "창조의 일이 무엇입니까?",
+    "answer_ko": "창조의 일은 하나님이 아무것도 없는 데서 그 권능의 말씀으로 엿새 동안에 만물을 지으시되 다 심히 좋게 지으신 것입니다.",
+    "question_en": "What is the work of creation?",
+    "answer_en": "The work of creation is, God's making all things of nothing, by the word of his power, in the space of six days, and all very good."
+  },
+  {
+    "number": 10,
+    "section": "faith",
+    "question_ko": "하나님이 사람을 어떻게 지으셨습니까?",
+    "answer_ko": "하나님이 사람을 남녀로 지으시되 자기의 형상대로 지식과 의와 거룩함이 있게 지으시고, 땅 위의 모든 생물을 다스리게 하셨습니다.",
+    "question_en": "How did God create man?",
+    "answer_en": "God created man male and female, after his own image, in knowledge, righteousness, and holiness, with dominion over the creatures."
+  },
+  {
+    "number": 11,
+    "section": "faith",
+    "question_ko": "하나님의 섭리의 일이 무엇입니까?",
+    "answer_ko": "하나님의 섭리의 일은 모든 피조물과 그들의 모든 행동을 지극히 거룩하고 지혜롭고 능력 있게 보존하시며 다스리시는 것입니다.",
+    "question_en": "What are God's works of providence?",
+    "answer_en": "God's works of providence are, his most holy, wise, and powerful preserving and governing all his creatures, and all their actions."
+  },
+  {
+    "number": 12,
+    "section": "faith",
+    "question_ko": "하나님이 사람을 지으신 그 지위에서 사람에게 무슨 특별한 섭리를 행하셨습니까?",
+    "answer_ko": "하나님이 사람을 지으신 후에 완전한 순종의 조건으로 생명의 언약을 세우시고 선악을 알게 하는 나무의 열매를 먹으면 죽을 것이라고 금하셨습니다.",
+    "question_en": "What special act of providence did God exercise toward man in the estate wherein he was created?",
+    "answer_en": "When God had created man, he entered into a covenant of life with him, upon condition of perfect obedience; forbidding him to eat of the tree of the knowledge of good and evil, upon pain of death."
+  },
+  {
+    "number": 13,
+    "section": "faith",
+    "question_ko": "우리 시조가 지음 받은 지위에 오래 있었습니까?",
+    "answer_ko": "우리 시조가 자기 뜻의 자유에 버림이 된 바 되어 하나님께 범죄하여 지음 받은 지위에서 떨어졌습니다.",
+    "question_en": "Did our first parents continue in the estate wherein they were created?",
+    "answer_en": "Our first parents, being left to the freedom of their own will, fell from the estate wherein they were created, by sinning against God."
+  },
+  {
+    "number": 14,
+    "section": "faith",
+    "question_ko": "죄가 무엇입니까?",
+    "answer_ko": "죄는 하나님의 법에 복종하지 않거나 그 법을 범하는 것입니다.",
+    "question_en": "What is sin?",
+    "answer_en": "Sin is any want of conformity unto, or transgression of, the law of God."
+  },
+  {
+    "number": 15,
+    "section": "faith",
+    "question_ko": "우리 시조가 지음 받은 지위에서 떨어진 그 죄가 무엇이었습니까?",
+    "answer_ko": "우리 시조가 지음 받은 지위에서 떨어진 그 죄는 금하신 과실을 먹은 것이었습니다.",
+    "question_en": "What was the sin whereby our first parents fell from the estate wherein they were created?",
+    "answer_en": "The sin whereby our first parents fell from the estate wherein they were created, was their eating the forbidden fruit."
+  },
+  {
+    "number": 16,
+    "section": "faith",
+    "question_ko": "온 인류가 아담의 첫 범죄에 빠졌습니까?",
+    "answer_ko": "그 언약은 아담 자신만을 위한 것이 아니요 그 후손을 위한 것도 되었으므로, 보통으로 저에게서 나온 온 인류가 저 안에서 범죄하여 저의 첫 범죄에 같이 빠졌습니다.",
+    "question_en": "Did all mankind fall in Adam's first transgression?",
+    "answer_en": "The covenant being made with Adam, not only for himself, but for his posterity; all mankind, descending from him by ordinary generation, sinned in him, and fell with him, in his first transgression."
+  },
+  {
+    "number": 17,
+    "section": "faith",
+    "question_ko": "타락이 인류를 무슨 지위에 이르게 하였습니까?",
+    "answer_ko": "타락이 인류를 죄와 비참의 지위에 이르게 하였습니다.",
+    "question_en": "Into what estate did the fall bring mankind?",
+    "answer_en": "The fall brought mankind into an estate of sin and misery."
+  },
+  {
+    "number": 18,
+    "section": "faith",
+    "question_ko": "사람이 빠진 그 죄의 지위의 죄 됨이 어디 있습니까?",
+    "answer_ko": "사람이 빠진 그 죄의 지위의 죄 됨은 아담의 첫 죄의 허물과 원래 의의 결핍과 온 성품의 부패함에 있으니, 이것을 통상 원죄라 합니다. 거기서 나오는 모든 범죄도 있습니다.",
+    "question_en": "Wherein consists the sinfulness of that estate whereinto man fell?",
+    "answer_en": "The sinfulness of that estate whereinto man fell, consists in the guilt of Adam's first sin, the want of original righteousness, and the corruption of his whole nature, which is commonly called original sin; together with all actual transgressions which proceed from it."
+  },
+  {
+    "number": 19,
+    "section": "faith",
+    "question_ko": "사람이 빠진 그 죄의 지위의 비참함이 무엇입니까?",
+    "answer_ko": "온 인류가 타락하여 하나님과 사귀는 것을 잃어버리고 하나님의 진노와 저주 아래에 있어서 이 세상의 모든 비참과 죽는 것과 영원히 지옥 고통을 받을 수밖에 없게 되었습니다.",
+    "question_en": "What is the misery of that estate whereinto man fell?",
+    "answer_en": "All mankind by their fall lost communion with God, are under his wrath and curse, and so made liable to all miseries in this life, to death itself, and to the pains of hell forever."
+  },
+  {
+    "number": 20,
+    "section": "faith",
+    "question_ko": "하나님이 온 인류를 죄와 비참의 지위에서 다 망하도록 버려 두셨습니까?",
+    "answer_ko": "하나님이 오직 그의 좋으실 대로 영원 전부터 어떤 사람들을 영생에 택하시고 은혜 언약을 세우셔서 한 구속자로 말미암아 그들을 죄와 비참의 지위에서 건져 내어 구원의 지위에 이르게 하셨습니다.",
+    "question_en": "Did God leave all mankind to perish in the estate of sin and misery?",
+    "answer_en": "God, having out of his mere good pleasure, from all eternity, elected some to everlasting life, did enter into a covenant of grace, to deliver them out of the estate of sin and misery, and to bring them into an estate of salvation by a Redeemer."
+  },
+  {
+    "number": 21,
+    "section": "faith",
+    "question_ko": "하나님의 택하신 자의 구속자가 누구십니까?",
+    "answer_ko": "하나님의 택하신 자의 유일한 구속자는 주 예수 그리스도이시니, 하나님의 영원하신 아들로서 사람이 되셨으므로, 두 가지 다른 성품 곧 신성과 인성이 두 위가 아닌 한 위에 영원토록 계십니다.",
+    "question_en": "Who is the Redeemer of God's elect?",
+    "answer_en": "The only Redeemer of God's elect is the Lord Jesus Christ, who, being the eternal Son of God, became man, and so was, and continueth to be, God and man in two distinct natures, and one person, forever."
+  },
+  {
+    "number": 22,
+    "section": "faith",
+    "question_ko": "그리스도가 하나님의 아들로서 어떻게 사람이 되셨습니까?",
+    "answer_ko": "그리스도, 하나님의 아들이 사람이 되심은 참 몸과 이치 있는 영혼을 취하시고, 성령의 권능으로 동정녀 마리아의 태에 잉태되어 그에게서 나시되 죄가 없이 나신 것입니다.",
+    "question_en": "How did Christ, being the Son of God, become man?",
+    "answer_en": "Christ, the Son of God, became man, by taking to himself a true body, and a reasonable soul, being conceived by the power of the Holy Ghost, in the womb of the virgin Mary, and born of her, yet without sin."
+  },
+  {
+    "number": 23,
+    "section": "faith",
+    "question_ko": "그리스도가 우리 구속자로서 무슨 직분을 행하십니까?",
+    "answer_ko": "그리스도가 우리 구속자로서 선지자와 제사장과 왕의 직분을 그의 낮아지심과 높아지심의 두 지위에서 다 행하십니다.",
+    "question_en": "What offices doth Christ execute as our Redeemer?",
+    "answer_en": "Christ, as our Redeemer, executeth the offices of a prophet, of a priest, and of a king, both in his estate of humiliation and exaltation."
+  },
+  {
+    "number": 24,
+    "section": "faith",
+    "question_ko": "그리스도가 어떻게 선지자의 직분을 행하십니까?",
+    "answer_ko": "그리스도가 선지자의 직분을 행하심은 그의 말씀과 성령으로 하나님의 뜻을 우리의 구원을 위하여 우리에게 알리시는 것입니다.",
+    "question_en": "How doth Christ execute the office of a prophet?",
+    "answer_en": "Christ executeth the office of a prophet, in revealing to us, by his Word and Spirit, the will of God for our salvation."
+  },
+  {
+    "number": 25,
+    "section": "faith",
+    "question_ko": "그리스도가 어떻게 제사장의 직분을 행하십니까?",
+    "answer_ko": "그리스도가 제사장의 직분을 행하심은 하나님의 공의를 만족시키고 우리를 하나님과 화목하게 하기 위하여 자기 몸을 단번에 제물로 드리신 것과 우리를 위하여 항상 간구하시는 것입니다.",
+    "question_en": "How doth Christ execute the office of a priest?",
+    "answer_en": "Christ executeth the office of a priest, in his once offering up of himself a sacrifice to satisfy divine justice, and reconcile us to God; and in making continual intercession for us."
+  },
+  {
+    "number": 26,
+    "section": "faith",
+    "question_ko": "그리스도가 어떻게 왕의 직분을 행하십니까?",
+    "answer_ko": "그리스도가 왕의 직분을 행하심은 우리를 자기에게 복종시키시며 다스리시며 보호하시며 자기와 우리의 모든 원수를 막으시며 이기시는 것입니다.",
+    "question_en": "How doth Christ execute the office of a king?",
+    "answer_en": "Christ executeth the office of a king, in subduing us to himself, in ruling and defending us, and in restraining and conquering all his and our enemies."
+  },
+  {
+    "number": 27,
+    "section": "faith",
+    "question_ko": "그리스도의 낮아지심이 어디 있습니까?",
+    "answer_ko": "그리스도의 낮아지심은 나시되 비천한 지위에 나시고 율법 아래 나시며, 이 세상의 여러 가지 비참과 하나님의 진노와 십자가의 저주의 죽음을 받으시며, 묻히셔서 얼마 동안 죽음의 권세 아래 계신 것입니다.",
+    "question_en": "Wherein did Christ's humiliation consist?",
+    "answer_en": "Christ's humiliation consisted in his being born, and that in a low condition, made under the law, undergoing the miseries of this life, the wrath of God, and the cursed death of the cross; in being buried, and continuing under the power of death for a time."
+  },
+  {
+    "number": 28,
+    "section": "faith",
+    "question_ko": "그리스도의 높아지심이 어디 있습니까?",
+    "answer_ko": "그리스도의 높아지심은 사흘 만에 죽은 가운데서 다시 살아나신 것과 하늘에 올라가신 것과 하나님 아버지 우편에 앉아 계신 것과 마지막 날에 세상을 심판하러 오시는 것입니다.",
+    "question_en": "Wherein consisteth Christ's exaltation?",
+    "answer_en": "Christ's exaltation consisteth in his rising again from the dead on the third day, in ascending up into heaven, in sitting at the right hand of God the Father, and in coming to judge the world at the last day."
+  },
+  {
+    "number": 29,
+    "section": "faith",
+    "question_ko": "그리스도가 사신 구속에 우리가 어떻게 참여하게 됩니까?",
+    "answer_ko": "그리스도가 사신 구속에 우리가 참여하게 되는 것은 그의 성령이 효과 있게 우리에게 적용하시는 것입니다.",
+    "question_en": "How are we made partakers of the redemption purchased by Christ?",
+    "answer_en": "We are made partakers of the redemption purchased by Christ, by the effectual application of it to us by his Holy Spirit."
+  },
+  {
+    "number": 30,
+    "section": "faith",
+    "question_ko": "성령이 그리스도가 사신 구속을 어떻게 우리에게 적용하십니까?",
+    "answer_ko": "성령이 그리스도가 사신 구속을 우리에게 적용하시는 것은 우리 안에서 믿음을 일으키시고, 이로써 효과 있는 부르심으로 우리를 그리스도에게 연합하게 하시는 것입니다.",
+    "question_en": "How doth the Spirit apply to us the redemption purchased by Christ?",
+    "answer_en": "The Spirit applieth to us the redemption purchased by Christ, by working faith in us, and thereby uniting us to Christ in our effectual calling."
+  },
+  {
+    "number": 31,
+    "section": "faith",
+    "question_ko": "효과 있는 부르심이 무엇입니까?",
+    "answer_ko": "효과 있는 부르심은 하나님의 성령의 하시는 일이니, 이로써 우리의 죄와 비참함을 깨닫게 하시고, 우리의 마음을 그리스도를 알게 밝혀 주시며, 우리의 뜻을 새롭게 하시고, 복음에 값없이 주시는 예수 그리스도를 받아들이도록 권하시며 능하게 하시는 것입니다.",
+    "question_en": "What is effectual calling?",
+    "answer_en": "Effectual calling is the work of God's Spirit, whereby, convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, he doth persuade and enable us to embrace Jesus Christ, freely offered to us in the gospel."
+  },
+  {
+    "number": 32,
+    "section": "faith",
+    "question_ko": "효과 있게 부르심을 받은 자들이 이 세상에서 어떤 유익에 참여합니까?",
+    "answer_ko": "효과 있게 부르심을 받은 자들이 이 세상에서 의롭다 하심과 양자 됨과 거룩하게 하심과 이 세상에서 이것들에 따르거나 이것들에서 나오는 여러 가지 유익에 참여합니다.",
+    "question_en": "What benefits do they that are effectually called partake of in this life?",
+    "answer_en": "They that are effectually called do in this life partake of justification, adoption, and sanctification, and the several benefits which in this life do either accompany or flow from them."
+  },
+  {
+    "number": 33,
+    "section": "faith",
+    "question_ko": "의롭다 하심이 무엇입니까?",
+    "answer_ko": "의롭다 하심은 하나님의 값없는 은혜의 행위이니, 이로써 우리의 모든 죄를 용서하시고 우리를 하나님 앞에서 의롭다 하시고 받아 주시되, 오직 그리스도의 의를 우리에게 전가하시고 오직 믿음으로만 받게 하시는 것입니다.",
+    "question_en": "What is justification?",
+    "answer_en": "Justification is an act of God's free grace, wherein he pardoneth all our sins, and accepteth us as righteous in his sight, only for the righteousness of Christ imputed to us, and received by faith alone."
+  },
+  {
+    "number": 34,
+    "section": "faith",
+    "question_ko": "양자 됨이 무엇입니까?",
+    "answer_ko": "양자 됨은 하나님의 값없는 은혜의 행위이니, 이로 말미암아 우리가 하나님의 자녀의 수에 넣으심을 받고, 하나님의 자녀의 모든 특권에 대하여 권리를 가지게 되는 것입니다.",
+    "question_en": "What is adoption?",
+    "answer_en": "Adoption is an act of God's free grace, whereby we are received into the number, and have a right to all the privileges, of the sons of God."
+  },
+  {
+    "number": 35,
+    "section": "faith",
+    "question_ko": "거룩하게 하심이 무엇입니까?",
+    "answer_ko": "거룩하게 하심은 하나님의 값없는 은혜의 사역이니, 이로 말미암아 온 사람이 하나님의 형상을 따라 새롭게 되어 점점 더 죄에 대하여 죽고, 의에 대하여 살게 되는 것입니다.",
+    "question_en": "What is sanctification?",
+    "answer_en": "Sanctification is the work of God's free grace, whereby we are renewed in the whole man after the image of God, and are enabled more and more to die unto sin, and live unto righteousness."
+  },
+  {
+    "number": 36,
+    "section": "faith",
+    "question_ko": "의롭다 하심과 양자 됨과 거룩하게 하심에 이 세상에서 따르거나 이것들에서 나오는 유익이 무엇입니까?",
+    "answer_ko": "의롭다 하심과 양자 됨과 거룩하게 하심에 이 세상에서 따르거나 이것들에서 나오는 유익은 하나님의 사랑의 확신과 양심의 화평과 성령 안에서의 기쁨과 은혜의 자람과 끝까지 견디는 것입니다.",
+    "question_en": "What are the benefits which in this life do accompany or flow from justification, adoption, and sanctification?",
+    "answer_en": "The benefits which in this life do accompany or flow from justification, adoption, and sanctification, are, assurance of God's love, peace of conscience, joy in the Holy Ghost, increase of grace, and perseverance therein to the end."
+  },
+  {
+    "number": 37,
+    "section": "faith",
+    "question_ko": "신자가 죽을 때에 그리스도에게서 무슨 유익을 받습니까?",
+    "answer_ko": "신자의 영혼이 죽을 때에 거룩함이 완전하게 되어 즉시 영광에 들어가고, 그 몸이 여전히 그리스도에게 연합해 있으며 무덤에서 부활 때까지 쉽니다.",
+    "question_en": "What benefits do believers receive from Christ at death?",
+    "answer_en": "The souls of believers are at their death made perfect in holiness, and do immediately pass into glory; and their bodies, being still united to Christ, do rest in their graves till the resurrection."
+  },
+  {
+    "number": 38,
+    "section": "faith",
+    "question_ko": "신자가 부활 때에 그리스도에게서 무슨 유익을 받습니까?",
+    "answer_ko": "부활 때에 신자가 영광 중에 다시 살아나며, 심판 날에 공공연히 알려지고 무죄함을 받아 하나님을 완전히 즐기는 가운데 영원토록 온전한 복을 받을 것입니다.",
+    "question_en": "What benefits do believers receive from Christ at the resurrection?",
+    "answer_en": "At the resurrection, believers being raised up in glory, shall be openly acknowledged and acquitted in the day of judgment, and made perfectly blessed in the full enjoying of God to all eternity."
+  },
+  {
+    "number": 39,
+    "section": "duty",
+    "question_ko": "하나님이 사람에게 요구하시는 의무가 무엇입니까?",
+    "answer_ko": "하나님이 사람에게 요구하시는 의무는 그의 나타난 뜻에 순종하는 것입니다.",
+    "question_en": "What is the duty which God requireth of man?",
+    "answer_en": "The duty which God requireth of man, is obedience to his revealed will."
+  },
+  {
+    "number": 40,
+    "section": "duty",
+    "question_ko": "하나님이 처음에 사람에게 순종의 규칙으로 무엇을 나타내 주셨습니까?",
+    "answer_ko": "하나님이 처음에 사람에게 순종의 규칙으로 나타내 주신 것은 도덕법입니다.",
+    "question_en": "What did God at first reveal to man for the rule of his obedience?",
+    "answer_en": "The rule which God at first revealed to man for his obedience, was the moral law."
+  },
+  {
+    "number": 41,
+    "section": "duty",
+    "question_ko": "도덕법은 어디에 요약되어 있습니까?",
+    "answer_ko": "도덕법은 십계명에 요약되어 있습니다.",
+    "question_en": "Wherein is the moral law summarily comprehended?",
+    "answer_en": "The moral law is summarily comprehended in the ten commandments."
+  },
+  {
+    "number": 42,
+    "section": "duty",
+    "question_ko": "십계명의 총괄이 무엇입니까?",
+    "answer_ko": "십계명의 총괄은 마음을 다하고 뜻을 다하고 힘을 다하고 목숨을 다하여 주 우리 하나님을 사랑하고 이웃을 내 몸같이 사랑하는 것입니다.",
+    "question_en": "What is the sum of the ten commandments?",
+    "answer_en": "The sum of the ten commandments is, to love the Lord our God with all our heart, with all our soul, with all our strength, and with all our mind; and our neighbour as ourselves."
+  },
+  {
+    "number": 43,
+    "section": "duty",
+    "question_ko": "십계명의 머리말이 무엇입니까?",
+    "answer_ko": "십계명의 머리말은 '나는 너를 애굽 땅 종 되었던 집에서 인도하여 낸 너의 하나님 여호와로라' 하신 것입니다.",
+    "question_en": "What is the preface to the ten commandments?",
+    "answer_en": "The preface to the ten commandments is in these words, I am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage."
+  },
+  {
+    "number": 44,
+    "section": "duty",
+    "question_ko": "십계명의 머리말이 우리에게 무엇을 가르칩니까?",
+    "answer_ko": "십계명의 머리말이 우리에게 가르치는 것은 하나님이 여호와시요 우리 하나님이시요 구속자이시니 그러므로 우리가 그의 모든 계명을 지켜야 하는 것입니다.",
+    "question_en": "What doth the preface to the ten commandments teach us?",
+    "answer_en": "The preface to the ten commandments teacheth us, that because God is the Lord, and our God, and Redeemer, therefore we are bound to keep all his commandments."
+  },
+  {
+    "number": 45,
+    "section": "duty",
+    "question_ko": "제1계명이 무엇입니까?",
+    "answer_ko": "제1계명은 '너는 나 외에는 다른 신들을 네게 있게 말지니라' 하신 것입니다.",
+    "question_en": "Which is the first commandment?",
+    "answer_en": "The first commandment is, Thou shalt have no other gods before me."
+  },
+  {
+    "number": 46,
+    "section": "duty",
+    "question_ko": "제1계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제1계명이 요구하는 것은 하나님만 참되신 하나님과 우리의 하나님으로 알아 인정하고 그대로 경배하며 영화롭게 하는 것입니다.",
+    "question_en": "What is required in the first commandment?",
+    "answer_en": "The first commandment requireth us to know and acknowledge God to be the only true God, and our God; and to worship and glorify him accordingly."
+  },
+  {
+    "number": 47,
+    "section": "duty",
+    "question_ko": "제1계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제1계명이 금하는 것은 참되신 하나님을 하나님으로 부인하거나 우리의 하나님으로 경배하며 영화롭게 하지 않는 것과 그에게만 드려야 할 것을 다른 무엇에게 드리는 것입니다.",
+    "question_en": "What is forbidden in the first commandment?",
+    "answer_en": "The first commandment forbiddeth the denying, or not worshipping and glorifying the true God as God, and our God; and the giving of that worship and glory to any other, which is due to him alone."
+  },
+  {
+    "number": 48,
+    "section": "duty",
+    "question_ko": "제1계명에 '내 앞에'란 말이 우리에게 특별히 무엇을 가르칩니까?",
+    "answer_ko": "'내 앞에'란 이 말은 만물을 보시는 하나님이 다른 신을 두는 죄를 아시고 크게 노하시는 것을 가르칩니다.",
+    "question_en": "What are we specially taught by these words, 'before me,' in the first commandment?",
+    "answer_en": "These words, 'before me,' in the first commandment teach us, that God, who seeth all things, taketh notice of, and is much displeased with, the sin of having any other God."
+  },
+  {
+    "number": 49,
+    "section": "duty",
+    "question_ko": "제2계명이 무엇입니까?",
+    "answer_ko": "제2계명은 '너를 위하여 새긴 우상을 만들지 말고 또 위로 하늘에 있는 것이나 아래로 땅에 있는 것이나 땅 아래 물 속에 있는 것의 아무 형상이든지 만들지 말며 그것들에게 절하지 말며 그것들을 섬기지 말라 나 여호와 너의 하나님은 질투하는 하나님인즉 나를 미워하는 자의 죄를 갚되 아비로부터 아들에게로 삼 사대까지 이르게 하거니와 나를 사랑하고 나의 계명을 지키는 자에게는 천대까지 은혜를 베푸느니라' 하신 것입니다.",
+    "question_en": "Which is the second commandment?",
+    "answer_en": "The second commandment is, Thou shalt not make unto thee any graven image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth: thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; and showing mercy unto thousands of them that love me, and keep my commandments."
+  },
+  {
+    "number": 50,
+    "section": "duty",
+    "question_ko": "제2계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제2계명이 요구하는 것은 하나님이 그의 말씀에 명하신 모든 종교적 예배와 규례를 받고 지키고 순전하고 온전하게 보존하는 것입니다.",
+    "question_en": "What is required in the second commandment?",
+    "answer_en": "The second commandment requireth the receiving, observing, and keeping pure and entire, all such religious worship and ordinances as God hath appointed in his Word."
+  },
+  {
+    "number": 51,
+    "section": "duty",
+    "question_ko": "제2계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제2계명이 금하는 것은 우상으로 하나님을 예배하는 것, 또는 하나님의 말씀에 명하지 않은 다른 어떤 방법으로 하나님을 예배하는 것입니다.",
+    "question_en": "What is forbidden in the second commandment?",
+    "answer_en": "The second commandment forbiddeth the worshipping of God by images, or any other way not appointed in his Word."
+  },
+  {
+    "number": 52,
+    "section": "duty",
+    "question_ko": "제2계명에 붙인 이유들이 무엇입니까?",
+    "answer_ko": "제2계명에 붙인 이유들은 하나님이 우리 위에 주권이 있으시고, 우리가 그의 소유요, 그가 자기의 예배에 열심이 있으신 것입니다.",
+    "question_en": "What are the reasons annexed to the second commandment?",
+    "answer_en": "The reasons annexed to the second commandment are, God's sovereignty over us, his propriety in us, and the zeal he hath to his own worship."
+  },
+  {
+    "number": 53,
+    "section": "duty",
+    "question_ko": "제3계명이 무엇입니까?",
+    "answer_ko": "제3계명은 '너는 너의 하나님 여호와의 이름을 망령되이 일컫지 말라 나 여호와는 나의 이름을 망령되이 일컫는 자를 죄 없다 하지 아니하리라' 하신 것입니다.",
+    "question_en": "Which is the third commandment?",
+    "answer_en": "The third commandment is, Thou shalt not take the name of the Lord thy God in vain: for the Lord will not hold him guiltless that taketh his name in vain."
+  },
+  {
+    "number": 54,
+    "section": "duty",
+    "question_ko": "제3계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제3계명이 요구하는 것은 하나님의 이름과 칭호와 속성과 규례와 말씀과 사역을 거룩하고 경건하게 사용하는 것입니다.",
+    "question_en": "What is required in the third commandment?",
+    "answer_en": "The third commandment requireth the holy and reverend use of God's names, titles, attributes, ordinances, Word, and works."
+  },
+  {
+    "number": 55,
+    "section": "duty",
+    "question_ko": "제3계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제3계명이 금하는 것은 하나님이 자기를 알리시는 모든 것을 더럽히거나 남용하는 것입니다.",
+    "question_en": "What is forbidden in the third commandment?",
+    "answer_en": "The third commandment forbiddeth all profaning or abusing of anything whereby God maketh himself known."
+  },
+  {
+    "number": 56,
+    "section": "duty",
+    "question_ko": "제3계명에 붙인 이유가 무엇입니까?",
+    "answer_ko": "제3계명에 붙인 이유는 제3계명을 범하는 자가 사람의 벌은 벗어날지라도 주 우리 하나님의 심판은 벗어나지 못할 것입니다.",
+    "question_en": "What is the reason annexed to the third commandment?",
+    "answer_en": "The reason annexed to the third commandment is, that however the breakers of this commandment may escape punishment from men, yet the Lord our God will not suffer them to escape his righteous judgment."
+  },
+  {
+    "number": 57,
+    "section": "duty",
+    "question_ko": "제4계명이 무엇입니까?",
+    "answer_ko": "제4계명은 '안식일을 기억하여 거룩히 지키라 엿새 동안은 힘써 네 모든 일을 행할 것이나 제칠일은 너의 하나님 여호와의 안식일인즉 너나 네 아들이나 네 딸이나 네 남종이나 네 여종이나 네 육축이나 네 문 안에 유하는 객이라도 아무 일도 하지 말라 이는 엿새 동안에 나 여호와가 하늘과 땅과 바다와 그 가운데 모든 것을 만들고 제칠일에 쉬었음이라 그러므로 나 여호와가 안식일을 복되게 하여 그 날을 거룩하게 하였느니라' 하신 것입니다.",
+    "question_en": "Which is the fourth commandment?",
+    "answer_en": "The fourth commandment is, Remember the sabbath day, to keep it holy. Six days shalt thou labour, and do all thy work: but the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates: for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it."
+  },
+  {
+    "number": 58,
+    "section": "duty",
+    "question_ko": "제4계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제4계명이 요구하는 것은 하나님이 그의 말씀에 정하신 대로 매 칠일의 온전한 하루를 자기의 거룩한 안식일로 지키는 것입니다.",
+    "question_en": "What is required in the fourth commandment?",
+    "answer_en": "The fourth commandment requireth the keeping holy to God such set times as he hath appointed in his Word; expressly one whole day in seven, to be a holy sabbath to himself."
+  },
+  {
+    "number": 59,
+    "section": "duty",
+    "question_ko": "매 칠일 중에 하나님이 어느 날을 안식일로 정하셨습니까?",
+    "answer_ko": "세상 처음부터 그리스도가 부활하시기까지는 매 칠일의 마지막 날이 안식일이었으나, 그리스도가 부활하신 이래로 매 칠일의 첫날이 주의 날 곧 그리스도인의 안식일이 되었습니다.",
+    "question_en": "Which day of the seven hath God appointed to be the weekly sabbath?",
+    "answer_en": "From the beginning of the world to the resurrection of Christ, God appointed the seventh day of the week to be the weekly sabbath; and the first day of the week ever since, to continue to the end of the world, which is the Christian sabbath."
+  },
+  {
+    "number": 60,
+    "section": "duty",
+    "question_ko": "안식일을 어떻게 거룩하게 지켜야 합니까?",
+    "answer_ko": "안식일을 거룩하게 지키려면 온 하루를 거룩하게 쉬되, 다른 날에는 정당한 세상 일이나 유흥이라도 이 날에는 쉬고 온 시간을 공적 사적으로 하나님을 예배하여야 합니다. 다만 필요한 일이나 자선의 일은 할 수 있습니다.",
+    "question_en": "How is the sabbath to be sanctified?",
+    "answer_en": "The sabbath is to be sanctified by a holy resting all that day, even from such worldly employments and recreations as are lawful on other days; and spending the whole time in the public and private exercises of God's worship, except so much as is to be taken up in the works of necessity and mercy."
+  },
+  {
+    "number": 61,
+    "section": "duty",
+    "question_ko": "제4계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제4계명이 금하는 것은 요구하신 의무를 행하지 않거나 부주의하게 행하는 것과 그 날을 게으르거나 자체로 죄되는 일을 하거나 세상 일과 유흥에 대하여 쓸데없는 생각, 말, 행동으로 범하는 것입니다.",
+    "question_en": "What is forbidden in the fourth commandment?",
+    "answer_en": "The fourth commandment forbiddeth the omission or careless performance of the duties required, and the profaning the day by idleness, or doing that which is in itself sinful, or by unnecessary thoughts, words, or works, about our worldly employments or recreations."
+  },
+  {
+    "number": 62,
+    "section": "duty",
+    "question_ko": "제4계명에 붙인 이유들이 무엇입니까?",
+    "answer_ko": "제4계명에 붙인 이유들은 하나님이 매 칠일 가운데 엿새를 자기의 일에 쓰게 허락하신 것과 제칠일을 특별히 자기의 것으로 요구하시는 것과 자기가 모범을 보이신 것과 안식일을 복되게 하신 것입니다.",
+    "question_en": "What are the reasons annexed to the fourth commandment?",
+    "answer_en": "The reasons annexed to the fourth commandment are, God's allowing us six days of the week for our own employments, his challenging a special propriety in the seventh, his own example, and his blessing the sabbath day."
+  },
+  {
+    "number": 63,
+    "section": "duty",
+    "question_ko": "제5계명이 무엇입니까?",
+    "answer_ko": "제5계명은 '네 부모를 공경하라 그리하면 너의 하나님 나 여호와가 네게 준 땅에서 네 생명이 길리라' 하신 것입니다.",
+    "question_en": "Which is the fifth commandment?",
+    "answer_en": "The fifth commandment is, Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee."
+  },
+  {
+    "number": 64,
+    "section": "duty",
+    "question_ko": "제5계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제5계명이 요구하는 것은 각 사람의 지위와 관계에 따라 윗사람과 아랫사람과 동등한 사람에게 해야 할 명예와 의무를 지키는 것입니다.",
+    "question_en": "What is required in the fifth commandment?",
+    "answer_en": "The fifth commandment requireth the preserving the honour, and performing the duties, belonging to every one in their several places and relations, as superiors, inferiors, or equals."
+  },
+  {
+    "number": 65,
+    "section": "duty",
+    "question_ko": "제5계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제5계명이 금하는 것은 각 사람의 지위와 관계에 따라 해야 할 명예와 의무를 게을리하거나 거스르는 것입니다.",
+    "question_en": "What is forbidden in the fifth commandment?",
+    "answer_en": "The fifth commandment forbiddeth the neglecting of, or doing anything against, the honour and duty which belongeth to every one in their several places and relations."
+  },
+  {
+    "number": 66,
+    "section": "duty",
+    "question_ko": "제5계명에 붙인 이유가 무엇입니까?",
+    "answer_ko": "제5계명에 붙인 이유는 이 계명을 지키는 모든 자에게 장수와 형통의 약속입니다(하나님의 영광에 합당한 한).",
+    "question_en": "What is the reason annexed to the fifth commandment?",
+    "answer_en": "The reason annexed to the fifth commandment is, a promise of long life and prosperity (as far as it shall serve for God's glory and their own good) to all such as keep this commandment."
+  },
+  {
+    "number": 67,
+    "section": "duty",
+    "question_ko": "제6계명이 무엇입니까?",
+    "answer_ko": "제6계명은 '살인하지 말지니라' 하신 것입니다.",
+    "question_en": "Which is the sixth commandment?",
+    "answer_en": "The sixth commandment is, Thou shalt not kill."
+  },
+  {
+    "number": 68,
+    "section": "duty",
+    "question_ko": "제6계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제6계명이 요구하는 것은 우리 자신과 남의 생명을 보존하기 위하여 모든 합당한 노력을 다하는 것입니다.",
+    "question_en": "What is required in the sixth commandment?",
+    "answer_en": "The sixth commandment requireth all lawful endeavours to preserve our own life, and the life of others."
+  },
+  {
+    "number": 69,
+    "section": "duty",
+    "question_ko": "제6계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제6계명이 금하는 것은 자기의 생명이나 이웃의 생명을 불의하게 빼앗는 것, 또는 빼앗으려 하는 모든 것입니다.",
+    "question_en": "What is forbidden in the sixth commandment?",
+    "answer_en": "The sixth commandment forbiddeth the taking away of our own life, or the life of our neighbour unjustly, or whatsoever tendeth thereunto."
+  },
+  {
+    "number": 70,
+    "section": "duty",
+    "question_ko": "제7계명이 무엇입니까?",
+    "answer_ko": "제7계명은 '간음하지 말지니라' 하신 것입니다.",
+    "question_en": "Which is the seventh commandment?",
+    "answer_en": "The seventh commandment is, Thou shalt not commit adultery."
+  },
+  {
+    "number": 71,
+    "section": "duty",
+    "question_ko": "제7계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제7계명이 요구하는 것은 자기 자신과 이웃의 정결을 마음과 말과 행동에 보존하는 것입니다.",
+    "question_en": "What is required in the seventh commandment?",
+    "answer_en": "The seventh commandment requireth the preservation of our own and our neighbour's chastity, in heart, speech, and behaviour."
+  },
+  {
+    "number": 72,
+    "section": "duty",
+    "question_ko": "제7계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제7계명이 금하는 것은 모든 정결치 못한 생각과 말과 행동입니다.",
+    "question_en": "What is forbidden in the seventh commandment?",
+    "answer_en": "The seventh commandment forbiddeth all unchaste thoughts, words, and actions."
+  },
+  {
+    "number": 73,
+    "section": "duty",
+    "question_ko": "제8계명이 무엇입니까?",
+    "answer_ko": "제8계명은 '도적질하지 말지니라' 하신 것입니다.",
+    "question_en": "Which is the eighth commandment?",
+    "answer_en": "The eighth commandment is, Thou shalt not steal."
+  },
+  {
+    "number": 74,
+    "section": "duty",
+    "question_ko": "제8계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제8계명이 요구하는 것은 우리 자신과 남의 재물과 소유를 합법적으로 획득하고 증진시키는 것입니다.",
+    "question_en": "What is required in the eighth commandment?",
+    "answer_en": "The eighth commandment requireth the lawful procuring and furthering the wealth and outward estate of ourselves and others."
+  },
+  {
+    "number": 75,
+    "section": "duty",
+    "question_ko": "제8계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제8계명이 금하는 것은 우리 자신이나 이웃의 재물이나 소유를 불의하게 방해하거나 방해하려는 모든 것입니다.",
+    "question_en": "What is forbidden in the eighth commandment?",
+    "answer_en": "The eighth commandment forbiddeth whatsoever doth or may unjustly hinder our own or our neighbour's wealth or outward estate."
+  },
+  {
+    "number": 76,
+    "section": "duty",
+    "question_ko": "제9계명이 무엇입니까?",
+    "answer_ko": "제9계명은 '네 이웃에 대하여 거짓 증거하지 말지니라' 하신 것입니다.",
+    "question_en": "Which is the ninth commandment?",
+    "answer_en": "The ninth commandment is, Thou shalt not bear false witness against thy neighbour."
+  },
+  {
+    "number": 77,
+    "section": "duty",
+    "question_ko": "제9계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제9계명이 요구하는 것은 사람과 사람 사이에 진실을 유지하며 증진시키고, 우리 자신과 이웃의 좋은 이름을 보전하는 것이며, 특히 증인으로 설 때에 그러합니다.",
+    "question_en": "What is required in the ninth commandment?",
+    "answer_en": "The ninth commandment requireth the maintaining and promoting of truth between man and man, and of our own and our neighbour's good name, especially in witness-bearing."
+  },
+  {
+    "number": 78,
+    "section": "duty",
+    "question_ko": "제9계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제9계명이 금하는 것은 진리를 해치거나 우리 자신이나 이웃의 좋은 이름을 해치는 모든 것입니다.",
+    "question_en": "What is forbidden in the ninth commandment?",
+    "answer_en": "The ninth commandment forbiddeth whatsoever is prejudicial to truth, or injurious to our own or our neighbour's good name."
+  },
+  {
+    "number": 79,
+    "section": "duty",
+    "question_ko": "제10계명이 무엇입니까?",
+    "answer_ko": "제10계명은 '네 이웃의 집을 탐내지 말지니라 네 이웃의 아내나 그의 남종이나 그의 여종이나 그의 소나 그의 나귀나 무릇 네 이웃의 소유를 탐내지 말지니라' 하신 것입니다.",
+    "question_en": "Which is the tenth commandment?",
+    "answer_en": "The tenth commandment is, Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor anything that is thy neighbour's."
+  },
+  {
+    "number": 80,
+    "section": "duty",
+    "question_ko": "제10계명이 요구하는 것이 무엇입니까?",
+    "answer_ko": "제10계명이 요구하는 것은 자기의 처지를 완전히 만족하며, 이웃에게 대하여 온전히 사랑하는 마음을 가져 이웃의 소유에 대하여도 그렇게 하는 것입니다.",
+    "question_en": "What is required in the tenth commandment?",
+    "answer_en": "The tenth commandment requireth full contentment with our own condition, with a right and charitable frame of spirit toward our neighbour, and all that is his."
+  },
+  {
+    "number": 81,
+    "section": "duty",
+    "question_ko": "제10계명이 금하는 것이 무엇입니까?",
+    "answer_ko": "제10계명이 금하는 것은 자기의 처지에 만족하지 않는 것과 이웃의 좋은 것을 부러워하거나 속으로 탐내는 것입니다.",
+    "question_en": "What is forbidden in the tenth commandment?",
+    "answer_en": "The tenth commandment forbiddeth all discontentment with our own estate, envying or grieving at the good of our neighbour, and all inordinate motions and affections to anything that is his."
+  },
+  {
+    "number": 82,
+    "section": "duty",
+    "question_ko": "하나님의 계명을 완전히 지킬 수 있는 사람이 있습니까?",
+    "answer_ko": "보통 사람은 아무도 이 세상에서 하나님의 계명을 완전히 지키지 못하고 날마다 생각과 말과 행동으로 그것을 범합니다.",
+    "question_en": "Is any man able perfectly to keep the commandments of God?",
+    "answer_en": "No mere man since the fall is able in this life perfectly to keep the commandments of God, but doth daily break them in thought, word, and deed."
+  },
+  {
+    "number": 83,
+    "section": "duty",
+    "question_ko": "율법을 범하는 것이 모두 동등하게 해로운 것입니까?",
+    "answer_ko": "어떤 죄는 그 자체로 또한 여러 가지 가중에 따라 하나님 앞에서 다른 죄보다 더 해로운 것입니다.",
+    "question_en": "Are all transgressions of the law equally heinous?",
+    "answer_en": "Some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others."
+  },
+  {
+    "number": 84,
+    "section": "duty",
+    "question_ko": "모든 죄가 마땅히 받아야 할 것이 무엇입니까?",
+    "answer_ko": "모든 죄가 마땅히 이 세상에서나 올 세상에서 하나님의 진노와 저주를 받아야 합니다.",
+    "question_en": "What doth every sin deserve?",
+    "answer_en": "Every sin deserveth God's wrath and curse, both in this life, and that which is to come."
+  },
+  {
+    "number": 85,
+    "section": "duty",
+    "question_ko": "죄로 말미암은 하나님의 진노와 저주에서 벗어나기 위하여 하나님이 우리에게 요구하시는 것이 무엇입니까?",
+    "answer_ko": "죄로 말미암은 하나님의 진노와 저주에서 벗어나기 위하여 하나님이 우리에게 요구하시는 것은 예수 그리스도를 믿는 믿음과 생명에 이르는 회개와 그리스도가 구원의 은혜를 우리에게 전달하는 모든 외적 방편을 부지런히 사용하는 것입니다.",
+    "question_en": "What doth God require of us, that we may escape his wrath and curse due to us for sin?",
+    "answer_en": "To escape the wrath and curse of God due to us for sin, God requireth of us faith in Jesus Christ, repentance unto life, with the diligent use of all the outward means whereby Christ communicateth to us the benefits of redemption."
+  },
+  {
+    "number": 86,
+    "section": "duty",
+    "question_ko": "예수 그리스도를 믿는 믿음이 무엇입니까?",
+    "answer_ko": "예수 그리스도를 믿는 믿음은 구원의 은혜인데, 이로 말미암아 우리가 구원을 위하여 복음에 그리스도를 우리에게 제공하신 대로 영접하고 그에게만 의지하게 됩니다.",
+    "question_en": "What is faith in Jesus Christ?",
+    "answer_en": "Faith in Jesus Christ is a saving grace, whereby we receive and rest upon him alone for salvation, as he is offered to us in the gospel."
+  },
+  {
+    "number": 87,
+    "section": "duty",
+    "question_ko": "생명에 이르는 회개가 무엇입니까?",
+    "answer_ko": "생명에 이르는 회개는 구원의 은혜인데, 이로 말미암아 죄인이 자기의 죄를 참으로 깨닫고 하나님의 긍휼을 그리스도 안에서 깨달아 자기의 죄를 슬퍼하고 미워하여 죄에서 떠나 하나님께로 돌아와 새로운 순종을 결심하며 힘쓰게 됩니다.",
+    "question_en": "What is repentance unto life?",
+    "answer_en": "Repentance unto life is a saving grace, whereby a sinner, out of a true sense of his sin, and apprehension of the mercy of God in Christ, doth, with grief and hatred of his sin, turn from it unto God, with full purpose of, and endeavour after, new obedience."
+  },
+  {
+    "number": 88,
+    "section": "grace",
+    "question_ko": "그리스도가 구속의 은혜를 우리에게 전달하시는 외적 방편이 무엇입니까?",
+    "answer_ko": "그리스도가 구속의 은혜를 우리에게 전달하시는 외적 보통 방편은 그의 규례 특히 말씀과 성례와 기도인데 이것들이 다 택함을 받은 자들에게 구원에 유효한 것이 됩니다.",
+    "question_en": "What are the outward means whereby Christ communicateth to us the benefits of redemption?",
+    "answer_en": "The outward and ordinary means whereby Christ communicateth to us the benefits of redemption, are his ordinances, especially the Word, sacraments, and prayer; all which are made effectual to the elect for salvation."
+  },
+  {
+    "number": 89,
+    "section": "grace",
+    "question_ko": "말씀이 어떻게 구원에 유효한 것이 됩니까?",
+    "answer_ko": "하나님의 영이 말씀을 읽는 것 특히 설교하는 것을 죄인을 깨우치며 회심시키며 성화와 믿음으로 세우는 유효한 방편이 되게 하십니다.",
+    "question_en": "How is the Word made effectual to salvation?",
+    "answer_en": "The Spirit of God maketh the reading, but especially the preaching, of the Word, an effectual means of convincing and converting sinners, and of building them up in holiness and comfort, through faith, unto salvation."
+  },
+  {
+    "number": 90,
+    "section": "grace",
+    "question_ko": "말씀이 구원에 유효하게 되려면 어떻게 읽고 들어야 합니까?",
+    "answer_ko": "말씀이 구원에 유효하게 되려면 부지런히 주의하여 준비하고, 기도하며, 믿음으로 받아서 마음에 간직하고 생활에 실행해야 합니다.",
+    "question_en": "How is the Word to be read and heard, that it may become effectual to salvation?",
+    "answer_en": "That the Word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practice it in our lives."
+  },
+  {
+    "number": 91,
+    "section": "grace",
+    "question_ko": "성례가 어떻게 구원에 유효한 방편이 됩니까?",
+    "answer_ko": "성례가 구원에 유효한 방편이 되는 것은 그것들 안에나 그것들을 행하는 사람의 능력에 있지 않고, 오직 그리스도의 복과 그것들을 믿음으로 받는 자들에게 역사하시는 성령에 있습니다.",
+    "question_en": "How do the sacraments become effectual means of salvation?",
+    "answer_en": "The sacraments become effectual means of salvation, not from any virtue in them, or in him that doth administer them; but only by the blessing of Christ, and the working of his Spirit in them that by faith receive them."
+  },
+  {
+    "number": 92,
+    "section": "grace",
+    "question_ko": "성례가 무엇입니까?",
+    "answer_ko": "성례는 거룩한 규례인데, 그리스도가 세우신 것이니, 그리스도와 새 언약의 은혜가 눈에 보이는 표로 신자들에게 표시되고 인쳐지며 적용되는 것입니다.",
+    "question_en": "What is a sacrament?",
+    "answer_en": "A sacrament is a holy ordinance instituted by Christ; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers."
+  },
+  {
+    "number": 93,
+    "section": "grace",
+    "question_ko": "신약의 성례가 무엇입니까?",
+    "answer_ko": "신약의 성례는 세례와 주의 만찬입니다.",
+    "question_en": "Which are the sacraments of the New Testament?",
+    "answer_en": "The sacraments of the New Testament are, Baptism, and the Lord's Supper."
+  },
+  {
+    "number": 94,
+    "section": "grace",
+    "question_ko": "세례가 무엇입니까?",
+    "answer_ko": "세례는 물로 씻기는 것인데, 성부와 성자와 성령의 이름으로 씻기는 것이니, 이것은 예수 그리스도에게 접붙임을 받고 은혜의 언약의 유익에 참여하고, 주의 것이 되었다는 우리의 약속을 표시하고 인쳐 주는 것입니다.",
+    "question_en": "What is Baptism?",
+    "answer_en": "Baptism is a sacrament, wherein the washing with water in the name of the Father, and of the Son, and of the Holy Ghost, doth signify and seal our ingrafting into Christ, and partaking of the benefits of the covenant of grace, and our engagement to be the Lord's."
+  },
+  {
+    "number": 95,
+    "section": "grace",
+    "question_ko": "세례를 누구에게 베풀어야 합니까?",
+    "answer_ko": "세례는 보이는 교회 밖에 있는 어떤 사람에게도 그리스도를 믿는 믿음과 그에게 순종할 것을 고백하기까지 베풀지 말 것이며, 그러나 믿는 부모 한편이나 양편의 유아에게는 베풀어야 합니다.",
+    "question_en": "To whom is Baptism to be administered?",
+    "answer_en": "Baptism is not to be administered to any that are out of the visible church, till they profess their faith in Christ, and obedience to him; but the infants of such as are members of the visible church are to be baptized."
+  },
+  {
+    "number": 96,
+    "section": "grace",
+    "question_ko": "주의 만찬이 무엇입니까?",
+    "answer_ko": "주의 만찬은 성례인데, 그리스도의 명하신 대로 떡과 포도주를 주고받는 것이니, 이로써 그의 죽으심을 나타내되, 합당하게 받는 자들이 그의 몸과 피에 (육적이거나 물질적이 아니라 오직 믿음으로) 참여하며, 그의 모든 유익이 저들에게 영적 양식과 은혜 가운데 자람이 됩니다.",
+    "question_en": "What is the Lord's Supper?",
+    "answer_en": "The Lord's Supper is a sacrament, wherein, by giving and receiving bread and wine, according to Christ's appointment, his death is showed forth; and the worthy receivers are, not after a corporal and carnal manner, but by faith, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace."
+  },
+  {
+    "number": 97,
+    "section": "grace",
+    "question_ko": "주의 만찬을 합당하게 받으려면 무엇을 요구합니까?",
+    "answer_ko": "주의 만찬을 합당하게 받으려면 자기를 살피되 주의 몸을 분별하는 지식과 그를 먹는 믿음과 회개와 사랑과 새 순종에 대해 살피는 것이 요구됩니다. 그렇지 않으면 합당하지 않게 와서 자기 자신에게 먹고 마시는 것이 됩니다.",
+    "question_en": "What is required to the worthy receiving of the Lord's Supper?",
+    "answer_en": "It is required of them that would worthily partake of the Lord's Supper, that they examine themselves of their knowledge to discern the Lord's body, of their faith to feed upon him, of their repentance, love, and new obedience; lest, coming unworthily, they eat and drink judgment to themselves."
+  },
+  {
+    "number": 98,
+    "section": "grace",
+    "question_ko": "기도가 무엇입니까?",
+    "answer_ko": "기도는 하나님의 이름으로 우리의 소원을 하나님께 아뢰는 것인데, 그리스도의 이름으로 성령의 도우심을 의지하여, 우리의 죄를 고백하며, 그의 은혜에 감사하는 것입니다.",
+    "question_en": "What is prayer?",
+    "answer_en": "Prayer is an offering up of our desires unto God, for things agreeable to his will, in the name of Christ, with confession of our sins, and thankful acknowledgement of his mercies."
+  },
+  {
+    "number": 99,
+    "section": "grace",
+    "question_ko": "하나님의 말씀이 기도의 지침으로 무엇을 주십니까?",
+    "answer_ko": "하나님의 말씀 전체가 기도의 지침이 되지만, 특별한 기도의 지침은 그리스도가 그의 제자들에게 가르치신 기도 곧 주기도문입니다.",
+    "question_en": "What rule hath God given for our direction in prayer?",
+    "answer_en": "The whole Word of God is of use to direct us in prayer; but the special rule of direction is that form of prayer which Christ taught his disciples, commonly called the Lord's Prayer."
+  },
+  {
+    "number": 100,
+    "section": "grace",
+    "question_ko": "주기도문의 머리말이 우리에게 무엇을 가르칩니까?",
+    "answer_ko": "주기도문의 머리말 곧 '하늘에 계신 우리 아버지여'는 거룩한 경외함과 믿음으로 하나님께 가까이 나아가는 것을 가르치되, 아버지와 같이 능하시고 모든 좋은 것을 기꺼이 주실 수 있는 분으로 나아가며, 또 남과 함께 남을 위하여 기도하여야 하는 것을 가르칩니다.",
+    "question_en": "What doth the preface of the Lord's Prayer teach us?",
+    "answer_en": "The preface of the Lord's Prayer, which is, Our Father which art in heaven, teacheth us to draw near to God with all holy reverence and confidence, as children to a father, able and ready to help us; and that we should pray with and for others."
+  },
+  {
+    "number": 101,
+    "section": "grace",
+    "question_ko": "첫째 간구에서 우리가 무엇을 구합니까?",
+    "answer_ko": "첫째 간구 곧 '이름이 거룩히 여김을 받으시오며'에서 우리가 구하는 것은 하나님이 우리와 다른 사람들에게 능력을 주사 자기를 알리시는 모든 것에서 하나님을 영화롭게 하게 하여 주시며, 모든 것을 자기의 영광을 위하여 처리하여 주시는 것입니다.",
+    "question_en": "What do we pray for in the first petition?",
+    "answer_en": "In the first petition, which is, Hallowed be thy name, we pray that God would enable us and others to glorify him in all that whereby he maketh himself known; and that he would dispose all things to his own glory."
+  },
+  {
+    "number": 102,
+    "section": "grace",
+    "question_ko": "둘째 간구에서 우리가 무엇을 구합니까?",
+    "answer_ko": "둘째 간구 곧 '나라이 임하옵시며'에서 우리가 구하는 것은 사탄의 나라가 멸망하고 은혜의 나라가 흥왕하여 우리 자신과 다른 사람들이 은혜의 나라에 들어가 그 안에 있게 하여 주시며, 영광의 나라가 속히 임하게 하여 주시는 것입니다.",
+    "question_en": "What do we pray for in the second petition?",
+    "answer_en": "In the second petition, which is, Thy kingdom come, we pray that Satan's kingdom may be destroyed; and that the kingdom of grace may be advanced, ourselves and others brought into it, and kept in it; and that the kingdom of glory may be hastened."
+  },
+  {
+    "number": 103,
+    "section": "grace",
+    "question_ko": "셋째 간구에서 우리가 무엇을 구합니까?",
+    "answer_ko": "셋째 간구 곧 '뜻이 하늘에서 이룬 것같이 땅에서도 이루어지이다'에서 우리가 구하는 것은 하나님이 은혜를 베풀어 주사 우리로 하여금 모든 일에 그의 뜻을 알고 순종하고 복종하기를 하늘에 있는 자들처럼 하게 하여 주시는 것입니다.",
+    "question_en": "What do we pray for in the third petition?",
+    "answer_en": "In the third petition, which is, Thy will be done in earth, as it is in heaven, we pray that God, by his grace, would make us able and willing to know, obey, and submit to his will in all things, as the angels do in heaven."
+  },
+  {
+    "number": 104,
+    "section": "grace",
+    "question_ko": "넷째 간구에서 우리가 무엇을 구합니까?",
+    "answer_ko": "넷째 간구 곧 '오늘날 우리에게 일용할 양식을 주옵시고'에서 우리가 구하는 것은 하나님의 값없는 은사로 이 세상의 좋은 것에 넉넉한 분량을 받으며 그것으로 하나님의 복을 누리는 것입니다.",
+    "question_en": "What do we pray for in the fourth petition?",
+    "answer_en": "In the fourth petition, which is, Give us this day our daily bread, we pray that of God's free gift we may receive a competent portion of the good things of this life, and enjoy his blessing with them."
+  },
+  {
+    "number": 105,
+    "section": "grace",
+    "question_ko": "다섯째 간구에서 우리가 무엇을 구합니까?",
+    "answer_ko": "다섯째 간구 곧 '우리가 우리에게 죄 지은 자를 사하여 준 것같이 우리 죄를 사하여 주옵시고'에서 우리가 구하는 것은 하나님이 그리스도를 인하여 우리의 모든 죄를 값없이 용서하여 주시는 것인데, 이것은 우리가 하나님의 은혜로 능력을 얻어 다른 사람을 진심으로 용서할 수 있으므로 더욱 담대하게 구하게 됩니다.",
+    "question_en": "What do we pray for in the fifth petition?",
+    "answer_en": "In the fifth petition, which is, And forgive us our debts, as we forgive our debtors, we pray that God, for Christ's sake, would freely pardon all our sins; which we are the rather encouraged to ask, because by his grace we are enabled from the heart to forgive others."
+  },
+  {
+    "number": 106,
+    "section": "grace",
+    "question_ko": "여섯째 간구에서 우리가 무엇을 구합니까?",
+    "answer_ko": "여섯째 간구 곧 '우리를 시험에 들게 하지 마옵시고 다만 악에서 구하옵소서'에서 우리가 구하는 것은 하나님이 우리를 시험에 빠지지 않게 보존하시거나, 시험을 당할 때에 붙들어 건져 주시는 것입니다.",
+    "question_en": "What do we pray for in the sixth petition?",
+    "answer_en": "In the sixth petition, which is, And lead us not into temptation, but deliver us from evil, we pray that God would either keep us from being tempted to sin, or support and deliver us when we are tempted."
+  },
+  {
+    "number": 107,
+    "section": "grace",
+    "question_ko": "주기도문의 결론이 우리에게 무엇을 가르칩니까?",
+    "answer_ko": "주기도문의 결론 곧 '나라와 권세와 영광이 아버지께 영원히 있사옵나이다 아멘'은 우리가 기도할 때에 하나님으로부터만 격려를 받아야 할 것과, 또 기도할 때에 나라와 권세와 영광을 아버지께 돌리며 그를 찬송할 것을 가르칩니다. 또한 우리가 우리의 소원의 증거와 들으실 줄 확신하는 표로 '아멘' 합니다.",
+    "question_en": "What doth the conclusion of the Lord's Prayer teach us?",
+    "answer_en": "The conclusion of the Lord's Prayer, which is, For thine is the kingdom, and the power, and the glory, forever, Amen, teacheth us to take our encouragement in prayer from God only, and in our prayers to praise him, ascribing kingdom, power, and glory to him; and, in testimony of our desire, and assurance to be heard, we say, Amen."
+  }
+]

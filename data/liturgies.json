@@ -1,0 +1,162 @@
+[
+  {
+    "number": 1,
+    "id": "apostles-creed",
+    "title_ko": "사도신경",
+    "title_en": "The Apostles' Creed",
+    "lyrics": [
+      {
+        "verse": "",
+        "lines": [
+          {
+            "ko": "전능하사 천지를 만드신 하나님 아버지를 내가 믿사오며,",
+            "en": "I believe in God, the Father almighty, creator of heaven and earth."
+          },
+          {
+            "ko": "그 외아들 우리 주 예수 그리스도를 믿사오니, 이는 성령으로 잉태하사 동정녀 마리아에게 나시고,",
+            "en": "I believe in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit and born of the virgin Mary."
+          },
+          {
+            "ko": "본디오 빌라도에게 고난을 받으사, 십자가에 못 박혀 죽으시고, 장사한 지 사흘 만에 죽은 자 가운데서 다시 살아나시며,",
+            "en": "He suffered under Pontius Pilate, was crucified, died, and was buried; he descended to the dead. On the third day he rose again."
+          },
+          {
+            "ko": "하늘에 오르사, 전능하신 하나님 우편에 앉아 계시다가, 저리로서 산 자와 죽은 자를 심판하러 오시리라.",
+            "en": "He ascended into heaven, and is seated at the right hand of the Father. He will come again to judge the living and the dead."
+          },
+          {
+            "ko": "성령을 믿사오며, 거룩한 공회와, 성도가 서로 교통하는 것과, 죄를 사하여 주시는 것과, 몸이 다시 사는 것과, 영원히 사는 것을 믿사옵나이다. 아멘.",
+            "en": "I believe in the Holy Spirit, the holy catholic church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting. Amen."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "id": "ten-commandments",
+    "title_ko": "십계명",
+    "title_en": "The Ten Commandments",
+    "lyrics": [
+      {
+        "verse": "",
+        "lines": [
+          {
+            "ko": "<strong>제일은</strong>, 너는 나 외에는 다른 신들을 네게 두지 말라.",
+            "en": "<strong>1.</strong> You shall have no other gods before me."
+          },
+          {
+            "ko": "<strong>제이는</strong>, 너를 위하여 새긴 우상을 만들지 말고, 또 위로 하늘에 있는 것이나, 아래로 땅에 있는 것이나, 땅 아래 물 속에 있는 것의 어떤 형상도 만들지 말며, 그것들에게 절하지 말며, 그것들을 섬기지 말라.",
+            "en": "<strong>2.</strong> You shall not make for yourself an idol in the form of anything in heaven above or on the earth beneath or in the waters below. You shall not bow down to them or worship them."
+          },
+          {
+            "ko": "<strong>제삼은</strong>, 너는 네 하나님 여호와의 이름을 망령되게 부르지 말라.",
+            "en": "<strong>3.</strong> You shall not misuse the name of the Lord your God."
+          },
+          {
+            "ko": "<strong>제사는</strong>, 안식일을 기억하여 거룩하게 지키라.",
+            "en": "<strong>4.</strong> Remember the Sabbath day by keeping it holy."
+          },
+          {
+            "ko": "<strong>제오는</strong>, 네 부모를 공경하라.",
+            "en": "<strong>5.</strong> Honor your father and your mother."
+          },
+          {
+            "ko": "<strong>제육은</strong>, 살인하지 말라.",
+            "en": "<strong>6.</strong> You shall not murder."
+          },
+          {
+            "ko": "<strong>제칠은</strong>, 간음하지 말라.",
+            "en": "<strong>7.</strong> You shall not commit adultery."
+          },
+          {
+            "ko": "<strong>제팔은</strong>, 도둑질하지 말라.",
+            "en": "<strong>8.</strong> You shall not steal."
+          },
+          {
+            "ko": "<strong>제구는</strong>, 네 이웃에 대하여 거짓 증거하지 말라.",
+            "en": "<strong>9.</strong> You shall not give false testimony against your neighbor."
+          },
+          {
+            "ko": "<strong>제십은</strong>, 네 이웃의 집을 탐내지 말라.",
+            "en": "<strong>10.</strong> You shall not covet your neighbor's house."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "id": "confession-pardon",
+    "title_ko": "참회와 용서",
+    "title_en": "Confession & Pardon",
+    "lyrics": [
+      {
+        "verse": "",
+        "lines": [
+          {
+            "ko": "<strong>참회의 기도 (Prayer of Confession)</strong>",
+            "en": "<strong>Prayer of Confession</strong>"
+          },
+          {
+            "ko": "자비롭고 거룩하신 하나님 아버지, 우리는 주님의 거룩한 법을 어기고, 생각과 말과 행동으로 많은 죄를 지었습니다. 주님께서 기뻐하시는 선한 일은 행하지 못했고, 주님께서 미워하시는 악한 일은 행했습니다.",
+            "en": "Merciful and holy Heavenly Father, we have broken your holy laws, and sinned in thought, word, and deed. We have failed to do the good you delight in, and have done the evil you forbid."
+          },
+          {
+            "ko": "우리 주 예수 그리스도의 보혈로 우리의 모든 죄와 허물을 씻어 주시고, 죄의 멍에에서 해방시켜 주옵소서. 우리를 불쌍히 여기사 주님의 거룩한 인도하심을 따라 살아가게 하옵소서. 우리 주 예수 그리스도의 이름으로 간절히 기도합니다. 아멘.",
+            "en": "Wash away all our sins and transgressions through the precious blood of our Lord Jesus Christ, and free us from the yoke of sin. Have mercy on us and enable us to walk in your holy ways. In the name of our Lord Jesus Christ we pray. Amen."
+          },
+          {
+            "ko": "<strong>사죄의 선언 (Assurance of Pardon)</strong>",
+            "en": "<strong>Assurance of Pardon</strong>"
+          },
+          {
+            "ko": "하나님은 미쁘시고 의로우사 우리의 모든 죄를 사하시며, 우리를 모든 불의에서 깨끗하게 하십니다.",
+            "en": "God is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+          },
+          {
+            "ko": "예수 그리스도를 믿는 모든 이들에게 선언합니다. 여러분의 모든 죄는 주님의 십자가 공로로 온전히 용서받았습니다. 이제 자유함과 기쁨으로 주님의 길을 걸어가십시오. 아멘.",
+            "en": "To all who believe in Jesus Christ, I declare: Your sins are fully forgiven through the merits of the cross. Walk now in the freedom and joy of the Lord. Amen."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "id": "lords-prayer",
+    "title_ko": "주기도문",
+    "title_en": "The Lord's Prayer",
+    "lyrics": [
+      {
+        "verse": "",
+        "lines": [
+          {
+            "ko": "하늘에 계신 우리 아버지여, 이름이 거룩히 여김을 받으시오며, 나라이 임하옵시며,",
+            "en": "Our Father, who art in heaven, hallowed be thy name; thy kingdom come;"
+          },
+          {
+            "ko": "뜻이 하늘에서 이룬 것 같이 땅에서도 이루어지이다.",
+            "en": "thy will be done on earth as it is in heaven."
+          },
+          {
+            "ko": "오늘날 우리에게 일용할 양식을 주옵시고,",
+            "en": "Give us this day our daily bread;"
+          },
+          {
+            "ko": "우리가 우리에게 죄 지은 자를 사하여 준 것 같이 우리 죄를 사하여 주옵시고,",
+            "en": "and forgive us our debts, as we forgive our debtors;"
+          },
+          {
+            "ko": "우리를 시험에 들게 하지 마옵시고, 다만 악에서 구하옵소서.",
+            "en": "and lead us not into temptation, but deliver us from evil."
+          },
+          {
+            "ko": "대개 나라와 권세와 영광이 아버지께 영원히 있사옵나이다. 아멘.",
+            "en": "For thine is the kingdom, and the power, and the glory, forever. Amen."
+          }
+        ]
+      }
+    ]
+  }
+]

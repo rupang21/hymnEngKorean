@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>한영 새찬송가 (Bilingual Hymnal)</title>
+    
+    <!-- PWA Settings -->
+    <meta name="theme-color" content="#0a0b0d">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="한영 찬송가">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
+    
+    <!-- SEO and Meta Tags -->
+    <meta name="description" content="모바일에 최적화된 21세기 새찬송가 645곡 한영 대조 가사 및 오프라인 악보 뷰어 서비스">
+    <meta name="keywords" content="찬송가, 새찬송가, 한영찬송가, 찬송가 가사, 찬송가 악보, PWA, 오프라인 찬송가">
+    <meta property="og:title" content="한영 새찬송가 (Bilingual Hymnal)">
+    <meta property="og:description" content="예배당에서 사용하기 편리한 스마트 한영 찬송가 가사 및 악보 서비스">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@300;400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="brand">
+                    <span class="brand-title" id="sidebar-brand-title">새찬송가 (645)</span>
+                    <button class="menu-toggle" id="sidebar-close-btn" aria-label="메뉴 닫기">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+                <!-- Mode Tabs -->
+                <div class="mode-tabs" id="mode-tabs">
+                    <button class="mode-tab active" data-mode="hymn" id="mode-tab-hymn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                        <span>찬송가</span>
+                    </button>
+                    <button class="mode-tab" data-mode="catechism" id="mode-tab-catechism">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                        <span>문답</span>
+                    </button>
+                    <button class="mode-tab" data-mode="liturgy" id="mode-tab-liturgy">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                        <span>예배/기도</span>
+                    </button>
+                </div>
+                <!-- Hymnal Selector -->
+                <div class="hymnal-selector" id="hymnal-selector">
+                    <button class="hymnal-tab active" data-hymnal="new" id="hymnal-tab-new">
+                        <span>새찬송가 (645)</span>
+                    </button>
+                    <button class="hymnal-tab" data-hymnal="trinity" id="hymnal-tab-trinity">
+                        <span>트리니티 (1961)</span>
+                    </button>
+                    <button class="hymnal-tab" data-hymnal="trinity_1990" id="hymnal-tab-trinity_1990">
+                        <span>트리니티 (1990)</span>
+                    </button>
+                </div>
+                <!-- Catechism Selector -->
+                <div class="hymnal-selector" id="catechism-selector" style="display: none;">
+                    <button class="hymnal-tab active" data-catechism-type="shorter" id="catechism-tab-shorter">
+                        <span>소요리문답 (107)</span>
+                    </button>
+                    <button class="hymnal-tab" data-catechism-type="larger" id="catechism-tab-larger">
+                        <span>대요리문답 (196)</span>
+                    </button>
+                </div>
+                <div class="search-wrapper">
+                    <span class="search-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </span>
+                    <input type="text" id="search-input" class="search-input" placeholder="번호 또는 가사 검색..." autocomplete="off">
+                </div>
+            </div>
+            <ul class="hymn-list" id="hymn-list-items">
+                <!-- Loaded dynamically by app.js -->
+                <div class="empty-state">로딩 중...</div>
+            </ul>
+        </aside>
+
+        <!-- Main Display Pane -->
+        <main class="main-content">
+            
+            <!-- Toolbar -->
+            <header class="toolbar">
+                <div class="controls-group">
+                    <button class="btn" id="menu-open-btn" aria-label="메뉴 열기">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
+                    
+                    <button class="btn active" id="layout-toggle-btn" title="레이아웃 변경">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="12" y1="3" x2="12" y2="21"></line></svg>
+                        <span id="layout-label">한/영 대조</span>
+                    </button>
+                    
+                    <button class="btn" id="score-toggle-btn" title="악보 보기">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                        <span>악보 보기</span>
+                    </button>
+                </div>
+                
+                <div class="controls-group">
+                    <!-- Screen Wake Lock Control -->
+                    <button class="btn" id="wake-lock-btn" title="화면 꺼짐 방지">
+                        <span class="wake-lock-status" id="wake-lock-status-dot"></span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+                        <span>화면 켬</span>
+                    </button>
+                    
+                    <!-- Settings Toggle Control -->
+                    <button class="btn" id="settings-toggle-btn" title="설정">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                        <span>설정</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Reader Container -->
+            <div class="reader-container" id="reader-container">
+                <!-- Selected hymn content will load here -->
+                <div class="empty-state" id="empty-state">
+                    <div class="empty-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    </div>
+                    <h3 id="empty-state-title">찬송가를 선택해 주세요</h3>
+                    <p id="empty-state-desc">왼쪽 목록에서 곡을 선택하거나 검색창에서 바로 찾을 수 있습니다.</p>
+                </div>
+                
+                <article class="reader-content" id="hymn-reader-content" style="display: none;">
+                    <header class="hymn-header">
+                        <h1 class="hymn-title-ko" id="view-title-ko">찬송가 제목</h1>
+                        <div class="hymn-title-en" id="view-title-en">Hymn English Title</div>
+                        <div class="hymn-meta">
+                            <span id="view-hymn-number">제 1 장</span>
+                        </div>
+                    </header>
+                    
+                    <div class="lyrics-body" id="view-lyrics-body" data-layout="ko-en">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </article>
+
+                <!-- Catechism Reader Content -->
+                <article class="reader-content" id="catechism-reader-content" style="display: none;">
+                    <header class="hymn-header catechism-header">
+                        <div class="catechism-section-badge" id="catechism-section-badge">하나님에 대한 믿음</div>
+                        <h1 class="hymn-title-ko" id="catechism-title-number">제 1 문</h1>
+                    </header>
+                    
+                    <div class="catechism-body" id="catechism-body">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </article>
+            </div>
+
+            <!-- Sheet Music Drawer Overlay -->
+            <aside class="score-overlay" id="score-overlay">
+                <header class="score-header">
+                    <span class="score-title" id="score-title-label">악보 보기 - 제 1 장</span>
+                    <button class="btn" id="score-close-btn" aria-label="악보 닫기">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </header>
+                <div class="score-body">
+                    <img src="" alt="Hymn Sheet Music" class="score-image" id="score-img-element">
+                </div>
+            </aside>
+
+            <!-- Settings Drawer Overlay -->
+            <aside class="settings-overlay" id="settings-overlay">
+                <header class="settings-header">
+                    <span class="settings-title">설정 (Settings)</span>
+                    <button class="btn" id="settings-close-btn" aria-label="설정 닫기">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </header>
+                <div class="settings-body">
+                    <!-- Theme Settings Group -->
+                    <div class="settings-group">
+                        <h4 class="settings-group-title">화면 테마 (Theme)</h4>
+                        <div class="theme-selection-grid">
+                            <button class="theme-select-card" data-theme-val="dark">
+                                <div class="theme-preview dark-preview"></div>
+                                <span class="theme-label">다크 (Dark)</span>
+                            </button>
+                            <button class="theme-select-card" data-theme-val="sepia">
+                                <div class="theme-preview sepia-preview"></div>
+                                <span class="theme-label">세피아 (Sepia)</span>
+                            </button>
+                            <button class="theme-select-card" data-theme-val="light">
+                                <div class="theme-preview light-preview"></div>
+                                <span class="theme-label">라이트 (Light)</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Language Selection Group -->
+                    <div class="settings-group">
+                        <h4 class="settings-group-title">표시 언어 설정 (Languages)</h4>
+                        <div class="language-selection-list">
+                            <label class="lang-checkbox-label">
+                                <input type="checkbox" class="lang-checkbox" value="ko" checked>
+                                <span class="custom-checkbox"></span>
+                                <span class="lang-name">한국어 (Korean)</span>
+                            </label>
+                            <label class="lang-checkbox-label">
+                                <input type="checkbox" class="lang-checkbox" value="en" checked>
+                                <span class="custom-checkbox"></span>
+                                <span class="lang-name">English (영어)</span>
+                            </label>
+                            <label class="lang-checkbox-label">
+                                <input type="checkbox" class="lang-checkbox" value="id">
+                                <span class="custom-checkbox"></span>
+                                <span class="lang-name">Bahasa Indonesia (인도네시아어)</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Font Settings Group (Unified Box) -->
+                    <div class="settings-group">
+                        <h4 class="settings-group-title">폰트 설정 (Font Settings)</h4>
+                        <div class="settings-nested-box">
+                            <!-- Font Size -->
+                            <div class="settings-sub-item">
+                                <span class="settings-sub-label">글자 크기 (Font Size)</span>
+                                <div class="font-size-adjuster">
+                                    <button class="settings-btn" id="settings-font-dec-btn" title="글자 작게">A-</button>
+                                    <span class="font-size-percentage" id="font-size-display-percent">100%</span>
+                                    <button class="settings-btn" id="settings-font-inc-btn" title="글자 크게">A+</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Font Family -->
+                            <div class="settings-sub-item-block">
+                                <span class="settings-sub-label">글꼴 종류 (Typography)</span>
+                                <div class="font-family-selector">
+                                    <button class="font-family-btn" data-font-val="serif">
+                                        <span class="font-family-preview serif-preview">가나다 (Serif)</span>
+                                        <span class="font-family-desc">명조체 (Lora + Noto Serif KR)</span>
+                                    </button>
+                                    <button class="font-family-btn" data-font-val="sans">
+                                        <span class="font-family-preview sans-preview">가나다 (Sans)</span>
+                                        <span class="font-family-desc">고딕체 (Outfit + Noto Sans KR)</span>
+                                    </button>
+                                    <button class="font-family-btn" data-font-val="system">
+                                        <span class="font-family-preview system-preview">가나다 (System)</span>
+                                        <span class="font-family-desc">기본체 (Inter + system-ui)</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+        </main>
+    </div>
+
+    <!-- Script Entrypoint -->
+    <script src="js/app.js"></script>
+</body>
+</html>
